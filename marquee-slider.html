@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        :root {
+            --size: clamp(10rem, 1rem + 40vmin, 30rem);
+            --gap: calc(var(--size) / 14);
+            --duration: 60s;
+            --scroll-start: 0;
+            --scroll-end: calc(-100% - var(--gap));
+        }
+
+        .main-animation-container {
+            background-color: #1055D7;
+        }
+
+        .marquu_container {            
+            display: flex;
+            overflow: hidden;
+            user-select: none;
+            gap: 30px;
+        }
+
+        .marquu_box {
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 30px;
+            min-width: max-content;
+            animation: scroll-x var(--duration) linear infinite;
+        }
+
+        @keyframes scroll-x {
+            from {
+                transform: translateX(var(--scroll-start));
+            }
+
+            to {
+                transform: translateX(var(--scroll-end));
+            }
+        }
+
+        .marquu_box-y {
+            animation-direction: reverse;			
+        }
+
+		.marquu_container-y {
+			padding: 20px 0;
+		}
+    </style>
+</head>
+
+<body>    
+    <div class="main-animation-container">
+        <div class="marquu_container">
+            <div class="marquu_box">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/thornmoney_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/affordablecarloans_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/ammf_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/azora_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/bfs_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/bizcap_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/capitalfinance_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/thornmoney_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/affordablecarloans_desktop.svg">
+            </div>
+            <div class="marquu_box">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/ammf_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/azora_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/bfs_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/bizcap_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/capitalfinance_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/thornmoney_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/affordablecarloans_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/ammf_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/azora_desktop.svg">
+            </div>
+            <div class="marquu_box">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/bfs_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/bizcap_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/capitalfinance_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/thornmoney_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/affordablecarloans_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/ammf_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/azora_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/bfs_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/bizcap_desktop.svg">
+            </div>
+        </div>
+
+        <div class="marquu_container-y marquu_container">
+            <div class="marquu_box-y marquu_box">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/coinstash_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/Commonwealth_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/earlypay_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/geddamoney_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/grow_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/lumi_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/moneyme_desktop.svg">
+            </div>
+            <div class="marquu_box-y marquu_box">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/morris_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/coinstash_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/Commonwealth_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/earlypay_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/geddamoney_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/grow_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/lumi_desktop.svg">
+            </div>
+            <div class="marquu_box-y marquu_box">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/moneyme_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/morris_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/coinstash_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/Commonwealth_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/earlypay_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/geddamoney_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/grow_desktop.svg">
+            </div>
+            <div class="marquu_box-y marquu_box">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/lumi_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/moneyme_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/morris_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/coinstash_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/Commonwealth_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/earlypay_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/geddamoney_desktop.svg">
+            </div>
+        </div>
+		
+        <div class="marquu_container">
+            <div class="marquu_box">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/moula_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/multipli_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/nab_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/prospa_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/Racv_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/scotpacbusinessfinance_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/selfco_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/moula_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/multipli_desktop.svg">
+            </div>
+            <div class="marquu_box">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/nab_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/prospa_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/Racv_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/scotpacbusinessfinance_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/selfco_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/moula_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/multipli_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/nab_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/prospa_desktop.svg">
+            </div>
+            <div class="marquu_box">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/Racv_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/scotpacbusinessfinance_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/selfco_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/moula_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/multipli_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/nab_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/prospa_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/Racv_desktop.svg">
+                <img width="100px" height="auto"
+                    src="https://bonofinancestg.wpenginepowered.com/wp-content/uploads/2024/11/scotpacbusinessfinance_desktop.svg">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
